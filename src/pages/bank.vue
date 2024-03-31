@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import trophy from '@images/misc/trophy.png'
+function sendMoney() {
+  console.log('돈을 보냈어요!')
+}
 </script>
 
 <template>
@@ -14,7 +17,7 @@ import trophy from '@images/misc/trophy.png'
         order-lg="1"
       >
         <VCardItem>
-          <VCardTitle>축하해요! A등급 달성! 🎉</VCardTitle>
+          <VCardTitle>축하해요! A등급 달성!!! 🎉</VCardTitle>
         </VCardItem>
 
         <VCardText>
